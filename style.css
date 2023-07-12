@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContainer{
+    border: 5px solid black;
+    padding: 10px 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.midContainer{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    
+}
+.numberShow{
+    border: 2px solid black;
+   padding: 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.reset{
+    margin-top: 10px;
+}
